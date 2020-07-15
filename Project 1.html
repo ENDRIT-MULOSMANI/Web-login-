@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<title>Project 1</title>
+	</head>
+
+	<body>
+		<div class="login-box">
+			<h1>Login</h1>
+
+			<div class="textbox">				
+				<input type="text" placeholder="Username" name="" value="" />
+			</div>
+
+			
+			<div class="textbox">				
+				<input type="password" placeholder="Password" name="" value="" />
+			</div>
+
+
+			<input class="btn" type="button" name="" value="Login" />
+
+		</div>
+
+		<style>
+
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-color: black;
+            }
+
+
+
+            ::-webkit-input-placeholder {
+                color: ghostwhite;
+				font-family: sans-serif;
+				opacity: 0.7;
+            }
+
+
+
+			.login-box {
+				width:300px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50% , -50%);
+				color: white;
+			}
+
+
+
+            .login-box h1 {
+                float: left;
+                font-size: 40px;
+                border-bottom: 6px solid;
+                border-bottom: 6px solid #4caf50;
+                margin-bottom: 50px;
+                padding: 13px 0;
+            }
+
+
+
+            .textbox {
+                width: 100%;
+                overflow: hidden;
+                font-size: 20px;
+                padding: 8px 0;
+                margin: 8px 0;
+                border-bottom: 1px solid #4caf50;
+
+            }
+
+
+
+            .textbox input {
+                border: none;
+                outline: none;
+                background: none;
+                color: white;
+                font-size: 18px;
+                width: 80%;
+                float: left;
+                margin: 0 10px;
+
+            }
+
+
+
+            .btn {
+                background: none;
+                width: 100%;
+                border: 2px solid #4caf50;
+                color: whitesmoke;
+                padding: 5px;
+                cursor: pointer;
+                margin: 12px 0;
+                font-weight: 500;
+                font-size: larger;
+                animation-name: btnanm;
+                animation-duration: 20s;
+                transition: background-position 0.3s;
+            }
+
+
+
+            @keyframes btnanm {
+				0%{color:white}
+				10%{color:#4caf50}
+				20%{color:white}
+				30%{color:#4caf50}
+                40% {color: white}
+				50%{color:#4caf50}
+				60%{color:white}
+                70% {color: #4caf50}
+				80%{color:white}
+				90%{color:#4caf50}
+                100% {color: white}
+			}
+
+
+		</style>
+	</body>
+</html>
